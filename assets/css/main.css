@@ -2359,7 +2359,7 @@ input, select, textarea {
 		height: auto;
 		text-align: left;
 		border-radius: 0.5em;
-		box-shadow: 0 0.15em 0.25em 0 rgba(0, 0, 0, 0.25);
+		box-shadow: 0 0.15em 0.25em 0 #000000;
 		min-width: 12em;
 		margin-top: -1em;
 		list-style: none;
@@ -2951,7 +2951,7 @@ input, select, textarea {
 				top: 0;
 				width: 100%;
 				z-index: 10002;
-				background: #1f1920;
+				background: #000000;
 				box-shadow: inset 0px -2px 5px 0px rgba(0, 0, 0, 0.25);
 				font-size: 1em;
 			}
