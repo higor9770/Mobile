@@ -1,8 +1,6 @@
 (function($) {
 
-	<script>
-		navigator.serviceworker.register('/serviceworker');
-	</script>
+	
 
 
 	/**

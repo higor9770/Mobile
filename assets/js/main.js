@@ -6,6 +6,9 @@
 
 (function($) {
 
+	<script>
+		navigator.serviceworker.register('/serviceworker');
+	</script>
 
 	var	$window = $(window),
 		$body = $('body'),
