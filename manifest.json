@@ -1,4 +1,15 @@
 {
+
+  "share_target": {
+    "action": "/index.html",
+    "method": "GET",
+    "enctype": "application/x-www-form-urlencoded",
+    "params": {
+      "title": "NFL BRASIL",
+      "text": "text",
+      "url": ""
+    }
+  }
   "name": "NFL BRASIL",
   "short_name": "NFL",
   "start_url": "/index.html",
