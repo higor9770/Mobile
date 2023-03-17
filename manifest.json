@@ -1,7 +1,7 @@
 {
   "name": "NFL BRASIL",
   "short_name": "NFL",
-  "start_url": "/index.html",
+  "start_url": "https://nflbrasil.netlify.app/",
   "display": "standalone",
   "description": "\"Aplicativo feito na aula prática de mobile\"",
   "lang": "pt",
@@ -37,7 +37,7 @@
   "shortcuts": [
     {
       "name": "NFL",
-      "url": "https://bucolic-fox-996747.netlify.app/",
+      "url": "https://nflbrasil.netlify.app/",
       "description": "A description of the functionality of this shortcut"
     }
   ],
