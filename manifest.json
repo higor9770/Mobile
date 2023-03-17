@@ -1,7 +1,7 @@
 {
 "name": "NFL BRASIL",
-"short_name": "NFL BRASIL",
-"start_url": "https://bucolic-fox-996747.netlify.app/",
+"short_name": "NFL",
+"start_url": "https://bucolic-fox-996747.netlify.app",
 "display": "standalone",
 "description": "A description for your application",
 "lang": " The default language of your application",
@@ -11,13 +11,13 @@
 "orientation": "any",
 "icons": [
     {
-        "src": "https://www.pwabuilder.com/assets/icons/icon_512.png",
+        "src": "https://cdn-icons-png.flaticon.com/512/6118/6118058.png",
         "sizes": "512x512",
         "type": "image/png",
         "purpose": "maskable"
     },
     {
-        "src": "https://www.pwabuilder.com/assets/icons/icon_192.png",
+        "src": "https://cdn-icons-png.flaticon.com/512/6118/6118058.png",
         "sizes": "192x192",
         "type": "image/png",
         "purpose": "any"
@@ -25,7 +25,7 @@
 ],
 "screenshots": [
     {
-        "src": "https://www.pwabuilder.com/assets/screenshots/screen1.png",
+        "src": "https://cdn-icons-png.flaticon.com/512/6118/6118058.png",
         "sizes": "2880x1800",
         "type": "image/png",
         "description": "A screenshot of the home page"
@@ -34,14 +34,14 @@
 "related_applications": [
     {
         "platform":"windows",
-        "url": " The URL to your app in that app store"
+        "url": "https://bucolic-fox-996747.netlify.app/"
     }
 ],
 "prefer_related_applications": false,
 "shortcuts": [
     {
         "name":"The name you would like to be displayed for your shortcut",
-        "url":"The url you would like to open when the user chooses this shortcut. This must be a URL local to your PWA. For example: If my start_url is /, this URL must be something like /shortcut",
+        "url":"https://bucolic-fox-996747.netlify.app/",
         "description":"A description of the functionality of this shortcut"
     }
 ]
