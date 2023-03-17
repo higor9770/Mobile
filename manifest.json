@@ -9,7 +9,6 @@
   "theme_color": "#000000",
   "background_color": "#000000",
   "orientation": "any",
-
   "icons": [
     {
       "src": "https://cdn-icons-png.flaticon.com/512/6118/6118058.png",
@@ -32,22 +31,20 @@
       "description": "A screenshot of the home page"
     }
   ],
-  
-  "prefer_related_applications": true,
   "related_applications": [
     {
-      "platform": "chrome_web_store",
-      "url": "https://www.linkedin.com",
-      "id": ""
-}],
-  
+      "platform": "play",
+      "url": "https://nflbrasil.netlify.app/",
+      "id": "0312"
+    }
+  ],
+  "prefer_related_applications": true,
   "shortcuts": [
     {
       "name": "NFL",
       "url": "https://nflbrasil.netlify.app/",
       "description": "A description of the functionality of this shortcut"
     }
-    
   ],
   "display_override": [
     "standalone",
@@ -62,6 +59,4 @@
   ],
   "scope": "/",
   "iarc_rating_id": "e58c174a-81d2-5c3c-32cc-34b8de4a52e9"
-
-  
-}   
+}
