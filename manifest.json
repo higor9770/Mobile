@@ -50,5 +50,6 @@
     "news",
     "sports"
   ],
-  "scope": "/"
+  "scope": "/",
+  "iarc_rating_id": ""
 }
