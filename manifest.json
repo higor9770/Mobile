@@ -32,14 +32,22 @@
       "description": "A screenshot of the home page"
     }
   ],
-  "related_applications": [],
+  
   "prefer_related_applications": true,
+  "related_applications": [
+    {
+      "platform": "chrome_web_store",
+      "url": "https://www.linkedin.com",
+      "id": ""
+}],
+  
   "shortcuts": [
     {
       "name": "NFL",
       "url": "https://nflbrasil.netlify.app/",
       "description": "A description of the functionality of this shortcut"
     }
+    
   ],
   "display_override": [
     "standalone",
