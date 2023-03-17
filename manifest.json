@@ -9,17 +9,7 @@
   "theme_color": "#000000",
   "background_color": "#000000",
   "orientation": "any",
-  "share_target": {
-    "action": "/index.html",
-    "method": "GET",
-    "enctype": "application/x-www-form-urlencoded",
-    "params": {
-      "title": "NFL BRASIL",
-      "text": "text",
-      "url": ""
-    }
-  }
-  
+
   "icons": [
     {
       "src": "https://cdn-icons-png.flaticon.com/512/6118/6118058.png",
