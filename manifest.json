@@ -1,15 +1,4 @@
 {
-
-  "share_target": {
-    "action": "/index.html",
-    "method": "GET",
-    "enctype": "application/x-www-form-urlencoded",
-    "params": {
-      "title": "NFL BRASIL",
-      "text": "text",
-      "url": ""
-    }
-  }
   "name": "NFL BRASIL",
   "short_name": "NFL",
   "start_url": "/index.html",
@@ -20,6 +9,17 @@
   "theme_color": "#000000",
   "background_color": "#000000",
   "orientation": "any",
+  "share_target": {
+    "action": "/index.html",
+    "method": "GET",
+    "enctype": "application/x-www-form-urlencoded",
+    "params": {
+      "title": "NFL BRASIL",
+      "text": "text",
+      "url": ""
+    }
+  }
+  
   "icons": [
     {
       "src": "https://cdn-icons-png.flaticon.com/512/6118/6118058.png",
@@ -64,4 +64,6 @@
   ],
   "scope": "/",
   "iarc_rating_id": "e58c174a-81d2-5c3c-32cc-34b8de4a52e9"
+
+  
 }   
