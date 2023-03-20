@@ -64,7 +64,7 @@
   "related_applications": [
     {
       "platform": "play",
-      "url": "https://nflbrasil.netlify.app/",
+      "url": "https://nflbrasil.netlify.app",
       "id": "4cc033f9-d774-4c45-8c69-892eb3251c57"
     }
   ],
@@ -78,7 +78,7 @@
   "shortcuts": [
     {
       "name": "NFL",
-      "url": "https://nflbrasil.netlify.app/",
+      "url": "https://nflbrasil.netlify.app",
       "description": "A description of the functionality of this shortcut"
     }
   ],
