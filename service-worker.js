@@ -1,3 +1,72 @@
+var cacheName = 'service-worker.js';
+
+self.addEventListener('install', event => {
+
+  self.skipWaiting();
+
+  event.waitUntil(
+    caches.open(cacheName)
+      .then(cache => cache.addAll([
+
+        'index.html',
+
+        'KansasCity.html',
+
+        'Philadelphia.html',
+
+        'SanFrancisco.html',
+
+        './assets/css/bootstrap.min.css',
+
+        './assets/js/bootstrap.min.js',
+
+        './assets/js/jquery.min.js',
+
+        './assets/js/popper.min.js',
+
+        './assets/img/background.png',
+        './assets/img/favicon.png',
+        './assets/img/logo.png',
+        './assets/img/icon_128.png',
+        './assets/img/icon_144.png',
+        './assets/img/icon_152.png',
+        './assets/img/icon_167.png',
+        './assets/img/icon_180.png',
+        './assets/img/icon_192.png',
+        './assets/img/icon_256.png',
+        './assets/img/icon_512.png',
+        './assets/img/formulas.JPG',
+      ]))
+  );
+});
+
+self.addEventListener('message', function (event) {
+  if (event.data.action === 'skipWaiting') {
+    self.skipWaiting();
+  }
+});
+
+self.addEventListener('fetch', function (event) {
+  //Atualizacao internet
+  event.respondWith(async function () {
+     try {
+       return await fetch(event.request);
+     } catch (err) {
+       return caches.match(event.request);
+     }
+   }());
+
+  //Atualizacao cache
+  /*event.respondWith(
+    caches.match(event.request)
+      .then(function (response) {
+        if (response) {
+          return response;
+        }
+        return fetch(event.request);
+      })
+  );*/
+
 const HOSTNAME_WHITELIST = [
   self.location.hostname,
   'fonts.gstatic.com',
@@ -8,6 +77,22 @@ const HOSTNAME_WHITELIST = [
   const sharedName = url.searchParams.get("name");
 	const sharedDescription = url.searchParams.get("description");
 	const sharedLink = url.searchParams.get("link");
+
+
+  if ("serviceWorker" in navigator) {
+    // declaring scope manually
+    navigator.serviceWorker.register("/sw.js", { scope: "/product/" }).then(
+      (registration) => {
+        console.log("Service worker registration succeeded:", registration);
+      },
+      (error) => {
+        console.error(`Service worker registration failed: ${error}`);
+      }
+    );
+  } else {
+    console.error("Service workers are not supported.");
+  }
+
 
 	self.addEventListener("fetch", (event) => {
 		// Regular requests not related to Web Share Target.
@@ -55,6 +140,8 @@ self.addEventListener('activate', event => {
 event.waitUntil(self.clients.claim())
 })
 
+
+
 /**
 *  @Functional Fetch
 *  All network requests are being intercepted here.
@@ -87,3 +174,7 @@ if (HOSTNAME_WHITELIST.indexOf(new URL(event.request.url).hostname) > -1) {
   )
  }
 })
+
+
+
+});

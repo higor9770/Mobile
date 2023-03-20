@@ -1,16 +1,19 @@
 {
 
   "name": "NFL BRASIL",
+
   "short_name": "NFL",
   "start_url": "https://nflbrasil.netlify.app",
-  "display": "standalone",
+  "start_url": "/index.html",
+
   "description": "\"Aplicativo feito na aula prática de mobile\"",
-  "lang": "pt",
+  "lang": "pt-br",
+
   "dir": "auto",
-  "theme_color": "#000000",
-  "background_color": "#000000",
+
   "orientation": "any",
-  
+
+
   "scope": "https://nflbrasil.netlify.app",
 
 
@@ -18,23 +21,44 @@
   "icons": [
     {
       "src": "https://cdn-icons-png.flaticon.com/512/6118/6118058.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "maskable"
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/6118/6118058.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/6118/6118058.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/6118/6118058.png",
+      "sizes": "167x167",
+      "type": "image/png"
+    },
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/6118/6118058.png",
+      "sizes": "180x180",
+      "type": "image/png"
     },
     {
       "src": "https://cdn-icons-png.flaticon.com/512/6118/6118058.png",
       "sizes": "192x192",
       "type": "image/png",
-      "purpose": "any"
-    }
-  ],
-  "screenshots": [
+	  "purpose": "any maskable"
+    },
     {
       "src": "https://cdn-icons-png.flaticon.com/512/6118/6118058.png",
-      "sizes": "2880x1800",
-      "type": "image/png",
-      "description": "A screenshot of the home page"
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/6118/6118058.png",
+      "sizes": "512x512",
+      "type": "image/png"
     }
   ],
   "related_applications": [
@@ -44,6 +68,12 @@
       "id": "4cc033f9-d774-4c45-8c69-892eb3251c57"
     }
   ],
+  "display_override": [
+    "standalone",
+    "browser",
+    "window-controls-overlay",
+    "fullscreen"
+  ],
   "prefer_related_applications": true,
   "shortcuts": [
     {
@@ -52,19 +82,14 @@
       "description": "A description of the functionality of this shortcut"
     }
   ],
-  "display_override": [
-    "standalone",
-    "browser",
-    "window-controls-overlay",
-    "fullscreen"
-  ],
+
   "categories": [
     "business",
     "news",
     "sports"
   ],
-  "iarc_rating_id": "e58c174a-81d2-5c3c-32cc-34b8de4a52e9",
-
+  "background_color": "#31506F",
+  "theme_color": "#4D5360",
   "share_target": {
     "action": "/shared-content-receiver/",
     "method": "GET",
@@ -74,6 +99,7 @@
       "url": "link"
     }
   }
+
 
 
 
