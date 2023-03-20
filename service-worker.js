@@ -93,6 +93,9 @@ const HOSTNAME_WHITELIST = [
     console.error("Service workers are not supported.");
   }
 
+  document.getElementById('reload').addEventListener('click', function () {
+    newWorker.postMessage({ action: 'skipWaiting' });
+  });
 
 	self.addEventListener("fetch", (event) => {
 		// Regular requests not related to Web Share Target.

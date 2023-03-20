@@ -1,10 +1,8 @@
-{
-
-  "name": "NFL BRASIL",
+{ "name": "NFL BRASIL",
 
   "short_name": "NFL",
   "start_url": "https://nflbrasil.netlify.app",
-  "start_url": "/index.html",
+  
 
   "description": "\"Aplicativo feito na aula prática de mobile\"",
   "lang": "pt-br",
