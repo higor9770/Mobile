@@ -2505,9 +2505,9 @@ input, select, textarea {
 /* Carousel */
 
 	.carousel {
-		position: relative;
-		overflow: hidden;
-		padding: 2em 0 2em 0;
+		position:relative;
+		overflow:scroll;
+		padding: 3em 0 3em 0;
 		margin-bottom: 0;
 	}
 
@@ -2517,7 +2517,7 @@ input, select, textarea {
 			width: 6em;
 			height: 12em;
 			margin-top: -6em;
-			cursor: pointer;
+			cursor:grab;
 		}
 
 			.carousel .forward:before, .carousel .backward:before {
@@ -2616,7 +2616,7 @@ input, select, textarea {
 			}
 
 			.carousel article p {
-				text-align: center;
+				text-align:center;
 			}
 
 /* Wide */

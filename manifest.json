@@ -2,7 +2,7 @@
 
   "name": "NFL BRASIL",
   "short_name": "NFL",
-  "start_url": "https://nflbrasil.netlify.app/",
+  "start_url": "https://nflbrasil.netlify.app",
   "display": "standalone",
   "description": "\"Aplicativo feito na aula prática de mobile\"",
   "lang": "pt",
@@ -10,6 +10,8 @@
   "theme_color": "#000000",
   "background_color": "#000000",
   "orientation": "any",
+  
+  "scope": "https://nflbrasil.netlify.app",
 
 
 
@@ -52,17 +54,15 @@
   ],
   "display_override": [
     "standalone",
-    "fullscreen",
     "browser",
-    "window-controls-overlay"
+    "window-controls-overlay",
+    "fullscreen"
   ],
   "categories": [
     "business",
     "news",
     "sports"
   ],
-
-  "scope": "/",
   "iarc_rating_id": "e58c174a-81d2-5c3c-32cc-34b8de4a52e9",
 
   "share_target": {
